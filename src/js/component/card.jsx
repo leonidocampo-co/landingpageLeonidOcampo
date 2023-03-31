@@ -3,45 +3,40 @@ import React from "react";
 export const Card = () => {
 
     return (
-    <div className="card-group">
-            <div className="card">
-            <img src="https://picsum.photos/202" className="card-img-top w-100 h-50" alt="..."/>
+
+      <div className="card mb-3 d-flex flex-row">
+            
+          <div className="card text-center  m-2" style={{width: '33rem'}}>
+          <img src="https://picsum.photos/200" class="card-img-top" alt="..."></img>
             <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+              <h5 className="card-title">Card Title</h5>
+              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" className="btn btn-primary">Find Out More!</a>
             </div>
+          </div>
 
-            <div className = "boton bg-secondary bg-opacity-10">
-              <a className="btn btn-primary btn-lg " href="#" role="button">Find out more!</a>
-              </div>
-        </div>
-
-        <div className="card">
-            <img src="https://picsum.photos/202" className="card-img-top w-100 h-50" alt="..."/>
+          <div className="card text-center m-2" style={{width: '33rem'}}>
+          <img src="https://picsum.photos/202" class="card-img-top" alt="..."></img>
             <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+              <h5 className="card-title">Card Title</h5>
+              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" className="btn btn-primary">Find Out More!</a>
             </div>
+          </div>
 
-            <div className = "boton bg-secondary bg-opacity-10">
-              <a className="btn btn-primary btn-lg " href="#" role="button">Find out more!</a>
-              </div>
-        </div>
-        <div className="card">
-            <img src="https://picsum.photos/203" className="card-img-top w-100 h-50" alt="..."/>
+          <div className="card text-center  m-2" style={{width: '33rem'}}>
+          <img src="https://picsum.photos/208" class="card-img-top" alt="..."></img>
             <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+              <h5 className="card-title">Card Title</h5>
+              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" className="btn btn-primary">Find Out More!</a>
             </div>
+          </div>
 
-            <div className = "boton bg-secondary bg-opacity-10">
-              <a className="btn btn-primary btn-lg " href="#" role="button">Find out more!</a>
-              </div>
-        </div>
-    </div>
+      
+      </div>
+
+
 
     );
 };
