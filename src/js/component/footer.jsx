@@ -4,7 +4,7 @@ export const Footer = () => {
 
     return (
         <div className="nav bg-black text-white ">
-            <p class = >CopyRight@yourwebsite</p>
+            <p> CopyRight@yourwebsite </p>
         </div>
     );
 };    
